@@ -19,7 +19,11 @@ ExpandableCircleMenu：可伸缩圆形按钮菜单，最多支持5个菜单项
 
 #### 效果图
 
-<img src="assets/1576407512.gif" alt="1576407512" style="zoom: 33%;" />
+<html>
+
+<img src="assets/1576407512.gif" max-width="50%" width="50%" repeat="true"/>
+
+</html>
 
 #### 自定义样式属性
 
