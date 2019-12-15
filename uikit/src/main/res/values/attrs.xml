@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 可折叠圆形按钮菜单 -->
+    <declare-styleable name="ExpandableCircleMenu">
+        <!-- 根布局背景颜色，默认#FFF -->
+        <attr name="ecm_bgColor" format="color" />
+        <!-- 菜单伸缩时间，默认300 -->
+        <attr name="ecm_menuToggleTime" format="integer" />
+        <!--  开关按钮图标 -->
+        <attr name="ecm_switchIcon" format="reference" />
+        <!--  单位长度（即根布局高度，决定整个ECM的大小），最大值60dp，最小值32dp -->
+        <attr name="ecm_unitLength" format="dimension" />
+        <!--  阴影高度，默认8dp -->
+        <attr name="ecm_elevation" format="dimension" />
+    </declare-styleable>
+</resources>

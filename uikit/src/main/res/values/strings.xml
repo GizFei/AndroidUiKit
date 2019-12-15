@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UiKit</string>
+
+    <!-- ECM相关-->
+    <string name="ecm_main_btn_icon">ECM_Main_Btn</string>
+    <string name="ecm_menu_btn_icon">ECM_Menu_Btn</string>
+</resources>

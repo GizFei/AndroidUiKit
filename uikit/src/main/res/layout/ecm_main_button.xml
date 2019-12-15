@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 控制开关按钮 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ecm_main_button_root"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/ecm_main_button_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/ecm_main_btn_icon"
+        android:src="@drawable/ecm_default_main_open_icon"
+        android:tint="#3D3D3D"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        />
+
+    <View
+        android:id="@+id/ecm_main_button_divider"
+        android:layout_width="2dp"
+        android:layout_height="30dp"
+        android:background="#F1F2F3"
+        android:layout_gravity="start|center_vertical"
+        android:alpha="0"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+</FrameLayout>
